@@ -1,0 +1,52 @@
+.greenBox {
+    height: 10rem;
+    width: 75%;
+    padding: 5rem;
+    background-color: lightgreen;
+    margin-bottom: 2rem;
+}
+#box1 {
+    float: right;
+    height: 10rem;
+    width: 15rem;
+    border: black solid 3px;
+    background-color: bisque;
+}
+#box2 {
+    float: left;
+    height: 10rem;
+    width: 15rem;
+    border: black solid 3px;
+    background-color: bisque;
+}
+#box3 {
+    display: inline-block;
+    height: 10rem;
+    width: 15rem;
+    margin-right: 12rem;
+    border: black solid 3px;
+    background-color: lightskyblue;
+}
+#box4 {
+    display: inline-block;
+    height: 10rem;
+    width: 15rem;
+    border: black solid 3px;
+    background-color: lightskyblue;
+}
+#box5 {
+    position: absolute;
+    left: 5rem;
+    height: 10rem;
+    width: 15rem;
+    border: black solid 3px;
+    background-color: bisque;
+}
+#box6 {
+    position: absolute;
+    left: 32rem;
+    height: 10rem;
+    width: 15rem;
+    border: black solid 3px;
+    background-color: bisque;
+}

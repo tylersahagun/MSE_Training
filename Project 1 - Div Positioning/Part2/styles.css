@@ -1,0 +1,62 @@
+.greenBox {
+    height: 10rem;
+    width: 75%;
+    padding-left: 3rem;
+    background-color: lightgreen;
+    margin-bottom: 2rem;
+}
+.cell {
+    float: left;
+    border: solid black 1px;
+    background-color: blanchedalmond;
+    width: 8rem;
+}
+
+.table1 {
+    float: left;
+}
+
+.table2 {
+    display: inline-block;
+    margin-bottom: -6px;
+}
+
+#tableAbsolute {
+    position: relative;
+}
+
+#ab1 {
+    position: absolute;
+    top: 0;
+}
+#ab2 {
+    position: absolute;
+    top: 1.4rem;
+}
+
+#ab3 {
+    position: absolute;
+    top: 2.8rem;
+}
+
+#ab4 {
+    position: absolute;
+    top: 4.2rem;
+}
+
+#ab5 {
+    position: absolute;
+    top: 5.6rem;
+}
+
+#tableFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col {
+    background-color: blanchedalmond;
+    border: black solid 1px;
+
+}
