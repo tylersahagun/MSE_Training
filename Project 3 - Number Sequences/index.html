@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 3: Guess the Number</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body onload="clearLog()">
+
+<h1>Fill in the missing number</h1>
+
+<div class="whiteBoard">
+
+<div class="sequence" id="seqNums">_ _ _ _ _ _</div>
+
+</div>
+
+<div class="contain">
+    <div class="submitContain">
+        <input type="text" id="userIn">
+        <button type="button" onclick="checkAnswer()" id="checkAnswer">Check Answer</button>
+        <button type="button" onclick="newProblem()" id="newProblem">New Problem</button>
+        <button type="button" onclick="clearLog()" id="startOver">Start Over</button>
+    </div>
+
+    <div class="gradeContain">
+        <div class="gradeNum" id="correct">
+            <p>Correct: <span id="rightCount">0</span></p>
+        </div>
+        <div class="gradeNum" id="incorrect">
+            <p>Incorrect: <span id="wrongCount">0</span></p>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

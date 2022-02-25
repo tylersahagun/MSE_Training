@@ -1,0 +1,62 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
+.whiteBoard {
+    border: solid black 3px;
+    height: 5rem;
+    width: 500px;
+    padding: 1rem;
+    background-color: lightskyblue;
+}
+.submitContain {
+    border: solid black 3px;
+    height: 5rem;
+    width: fit-content;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    padding: 10px;
+}
+.sequence {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: xx-large;
+}
+.gradeContain {
+    border: solid black 3px;
+    height: 5rem;
+    width: fit-content;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    padding: 10px;
+    margin-left: 1rem;
+}
+.gradeNum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+}
+.contain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
