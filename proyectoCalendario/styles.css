@@ -1,0 +1,35 @@
+#form {
+    background-color: rgba(0,0,0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10; 
+    width: 100%;
+    height: 100%;
+}
+
+#ajax-form {
+    background-color: white;
+    width: 33%;
+    padding: 50px;
+    margin-left: 33.5%;
+    margin-top: 10%;
+    border: black solid 3px;
+}
+
+th {
+    background-color: skyblue;
+}
+
+.bg-skyblue {
+    background-color: skyblue;
+}
+
+#signIn {
+    margin-left: 40%; 
+    padding: 40px;
+}
+
+p {
+    font-size: small;
+}

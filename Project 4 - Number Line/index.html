@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 4: Drag and Drop</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body onmousemove="mouse_move(event)" onmouseup="checkifholding()">
+
+    <h1 style="text-align: center;">Change Counter</h1>
+
+    <div class="drag">
+        <div class="container">
+            <h2 style="text-align: center;" id="changeRequest"></h2>
+            <div class="changeContain" id="changeContain">
+            </div>
+            
+        </div>
+        <div class="toolbox" id="tool">
+            <h3 style="text-align: center;" class="title">Select the correct change:</h3>
+
+            <div style="top: 200px; left: 625px;" class="box25" onmousedown="drag(event,25)"></div>
+            <div style="top: 220px; left: 750px;" class="box10" onmousedown="drag(event,10)"></div>
+            <div style="top: 300px; left: 635px;" class="box5" onmousedown="drag(event,5)"></div>
+            <div style="top: 300px; left: 745px;" class="box1" onmousedown="drag(event,1)"></div>
+            
+            <button type="button" onclick="calcChange()" id="changeBtn">Check</button>
+            <button type="button" onclick="newMoney()" id="moneyBtn">New Problem</button>
+            <button type="button" onclick="resetCounter()" id="resetBtn">Reset</button>
+            <p id="changeCounted">Click on new problem!</p>
+        </div>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>

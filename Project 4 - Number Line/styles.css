@@ -1,0 +1,99 @@
+* {
+    user-select: none;
+    -webkit-user-select: none;
+}
+.drag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container {
+    width: 55%;
+    height: 900px;
+    background-color: darkgrey;
+    touch-action: none;
+  }
+.toolbox{
+    height: 900px;
+    width: 40%;
+    background-color: cadetblue;
+    touch-action: none;
+}
+.box25 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-image: url(/images/quarter.png);
+    background-size: cover;
+    will-change: transform, left, top;
+    contain: layout;
+    cursor: pointer;
+}
+.box10 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(/images/dime.png);
+    background-size: cover;
+    will-change: transform, left, top;
+    contain: layout;
+    cursor: pointer;
+}
+.box5 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url(/images/nickel.png);
+    background-size: cover;
+    will-change: transform, left, top;
+    contain: layout;
+    cursor: pointer;
+}
+.box1 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-image: url(/images/penny.png);
+    background-size: cover;
+    will-change: transform, left, top;
+    contain: layout;
+    cursor: pointer;
+}
+.changeContain {
+    border: solid 5px black;
+    height: 780px;
+    width: 90%;
+    margin-left: 1rem;
+}
+#changeBtn {
+    position: absolute;
+    top: 400px;
+    left: 630px;
+}
+#moneyBtn {
+    position: absolute;
+    top: 400px;
+    left: 700px;
+}
+#resetBtn {
+    position: absolute;
+    top: 400px;
+    left: 800px;
+}
+#changeCounted {
+    position: absolute;
+    text-align: center;
+    top: 415px;
+    left: 625px;
+}
+.divider {
+    border: solid black 3px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+}

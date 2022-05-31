@@ -1,0 +1,24 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px black solid;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    width: 33%;
+    margin-top: 10rem;
+}
+.head {
+    display: flex;
+}
+#submit {
+    text-align: center;
+}
